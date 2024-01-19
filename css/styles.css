@@ -1,0 +1,204 @@
+body{
+    font-family: 'Montserrat';
+}
+/* Serenity
+#D9E2F7
+
+Navy Blue
+#0D314E
+
+Burnt Sienna
+#CC5216
+
+Blue Gray
+#9AA3B8 */
+#title{
+    height: 500px;
+    width: 100%;
+}
+.navbar{
+    background-color: #0D314E;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5    ;
+}
+h2{
+    font-family: 'Monteserrat-Bold';
+    font-size: 3rem;
+
+
+}
+.container-fluid{
+    padding: 1% 5% 5% 5% ;
+}
+
+
+/* Navigation bar */
+.navbar-brand{
+    font-family: "Ubantu",sans-serif;
+
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.navbar{
+    padding:0 0 0.05rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+/* title image */
+
+#slides {
+    position: relative;
+    
+    z-index: -99;
+}
+.backimg{
+    height: 100%;
+    width: 100%;
+}
+
+.topbg{
+    height: 50rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.brandname{
+    color: #CC5216; 
+    width: 70%;
+    position: relative;
+    z-index: 1;
+    
+    text-align: center;
+    -webkit-text-stroke: 3px black; 
+    margin: auto;
+    border-style: solid;
+    border-color: black;
+    border-width:2px;
+    stroke-width: 4px; 
+    padding: 10px;
+}
+/* Features */
+#features{
+    background-color: #fff;
+    position: relative;
+
+    padding: 2rem 5% 2rem 5%
+}
+.row{
+    text-align: center; 
+ 
+    
+}
+.icon{
+        font-size: 3rem;
+        padding-top: 3rem;
+        color: #CC5216;
+        margin-bottom: 10px;
+             }
+
+.icon:hover{
+    color: #0D314E;
+}             
+.feature-head{
+    font-family: "Monteserrat";
+    font-weight: 900;
+}
+.feature-text{
+    color: #8f8f8f;
+}
+
+
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    color: #fff;
+    background-color: #0D314E;
+    
+    
+}
+
+.testimonial-image{
+    width: 12%;
+    border-radius: 100%;
+    margin: 5% 5% 0% 10%;
+}
+
+
+
+
+#press{
+    background-color: #0D314E;
+    padding: 0% 5% 5% 10%;
+  
+}
+.press-image{
+    width: 22%;
+    padding: 0% 3%;
+}
+
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-card{
+    padding: 3% 2%;
+}
+
+
+
+
+@media (max-width:1067px)
+{
+   
+    #title{
+        text-align: center;
+    }
+}
+
+/* Call to action */
+
+#cta{
+    background-color: #0D314E;
+    text-align: center;
+    padding: 5% 7%;
+    color: #fff;
+}   
+
+.cta-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 2rem;
+}
+
+.ctabutton{
+    margin: 2% 1%;
+}
+
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 10px;
+}
+
+.foot{
+    margin: 10px  8px;
+}
